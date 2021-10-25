@@ -1,5 +1,5 @@
 # node-schdule sample code
-> 주기 업무를 실행하기 위해 node-schdule 을 이용한 간략한 souce-code 입니다.
+> 주기 업무를 실행하기 위해 node-schdule 을 이용한 Souce code 입니다.
 
 ## Required module
 
