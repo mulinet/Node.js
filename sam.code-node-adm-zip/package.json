@@ -1,0 +1,17 @@
+{
+  "name": "sam.code-node-adm-zip",
+  "version": "1.0.0",
+  "description": "> 압축과 다운로드 기능 샘플 소스 코드 입니다",
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mulinet",
+  "license": "MIT"
+}
