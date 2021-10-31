@@ -18,7 +18,7 @@ mocha utils.spec.js
 
 ## Start
 ```sh
-node start
+npm test
 ```
 
 
