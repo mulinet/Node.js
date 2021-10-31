@@ -1,0 +1,16 @@
+{
+  "name": "sam.code-node-tdd",
+  "version": "1.0.0",
+  "description": "> mocha, should, superTest 를 이용한 TDD 방식의 테스트 Souce code 입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "author": "jisan",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "should": "^13.2.3",
+    "supertest": "^6.1.6"
+  }
+}
