@@ -4,7 +4,7 @@
 ## Required module
 
 ```sh
-npm i json2csv fs --save-dev
+npm i json2csv fs --save
 ```
 ## Start
 ```sh
