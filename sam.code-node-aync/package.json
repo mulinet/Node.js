@@ -1,0 +1,15 @@
+{
+  "name": "sam.code-node-aync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "mulinet",
+  "license": "MIT",
+  "dependencies": {
+    "upgrade": "^1.1.0"
+  }
+}
