@@ -4,7 +4,7 @@
   "description": "learning node-routes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nodoemon index.js",
     "start": "index.js"
   },
   "author": "mulinet",
