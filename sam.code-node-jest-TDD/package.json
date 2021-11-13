@@ -1,0 +1,17 @@
+{
+  "name": "sam.code-node-jest-tdd",
+  "version": "1.0.0",
+  "description": "> jest 를 이용한 TDD 방식의 테스트 Souce code 입니다.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mulinet",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
