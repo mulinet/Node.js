@@ -15,8 +15,9 @@ npm run test
 
 
 ## Reference
-> [jest-테스트] <br>
-> [getStart-jest]
+> [jest 시작하기](https://jestjs.io/docs/getting-started/) <br>
+> [jest 테스트](https://www.daleseo.com/jest-basic/)
 
-[getStart-jest]:(https://jestjs.io/docs/getting-started/)
-[jest-테스트]:(https://www.daleseo.com/jest-basic/)
+
+
+	
