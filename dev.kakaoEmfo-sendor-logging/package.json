@@ -1,0 +1,15 @@
+{
+  "name": "dev.kakaoemfo-sendor-logging",
+  "version": "1.0.0",
+  "description": "sendor kako message with agent of emfo",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "jisanhong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "mongoose": "^6.3.6"
+  }
+}
