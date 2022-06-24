@@ -1,6 +1,7 @@
 'use strict'
 const axios = require('axios');
 
+
 axios.get('https://reqres.in/api/users?page=2').then((Response)=>{
     console.log(Response.data);
 }).catch((Error)=>{
