@@ -1,0 +1,19 @@
+{
+  "name": "imagedownloader",
+  "version": "1.0.0",
+  "description": "url image down loader",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "pkg . --out-path dist"
+  },
+  "author": "jisanhong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
