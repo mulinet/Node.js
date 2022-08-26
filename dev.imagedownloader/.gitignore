@@ -4,3 +4,4 @@ imagedownloader-win.exe
 node_modules/
 package-lock.json
 .env
+download/
