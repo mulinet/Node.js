@@ -1,4 +1,6 @@
-dist/
+imagedownloader-linux
+imagedownloader-macos
+imagedownloader-win.exe
 node_modules/
 package-lock.json
 .env

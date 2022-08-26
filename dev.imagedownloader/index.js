@@ -4,12 +4,13 @@ const axios = require("axios").default;
 const dotenv = require("dotenv");
 dotenv.config();
 
-const baseURL = process.env.BASE_URL;
-const baseURN = process.env.BASE_URN;
+const _baseUrl = process.env.BASE_URL;
+const _baseUrn = process.env.BASE_URN;
+const _downloadPath = process.env.DOWN_PATH;
 
 const downloadFile = async (fileUrl) => {
   let fileName = path.basename(fileUrl);
-  let localFilePath = path.resolve(process.env.DOWN_PATH, fileName);
+  let localFilePath = path.resolve(_downloadPath, fileName);
   try {
     let response = await axios({
       method: "GET",
@@ -30,9 +31,9 @@ const downloadFile = async (fileUrl) => {
 };
 
 const fn_excuteInit = async()=>{
-    let directory = fs.existsSync(process.env.DOWN_PATH);
-    if(!directory) fs.mkdirSync(process.env.DOWN_PATH);
-    await downloadFile(baseURL + baseURN);
+    let directory = fs.existsSync(_downloadPath);
+    if(!directory) fs.mkdirSync(_downloadPath);
+    await downloadFile(_baseUrl + _baseUrn);
 }
 
 fn_excuteInit();
